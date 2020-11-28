@@ -1,0 +1,14 @@
+{
+  "name": "smart-contract-security",
+  "version": "1.0.0",
+  "description": "Learning about smart contract security and best practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdullah Zakariyya zakariyyaopeyemi@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^5.1.55"
+  }
+}
