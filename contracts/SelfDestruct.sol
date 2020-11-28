@@ -8,7 +8,11 @@ contract SelfDestruct is Ownable {
     using SafeMath for uint;
     uint public value;
 
-    function setValue() public {
+    constructor() {
+        value = 0;
+    }
+
+    function increment() public {
         value = value.add(1);
     }
 
