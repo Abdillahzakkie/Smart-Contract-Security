@@ -4,11 +4,13 @@
   "description": "Learning about smart contract security and best practices",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test",
+    "compile": "truffle compile --all"
   },
   "author": "Abdullah Zakariyya zakariyyaopeyemi@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0-solc-0.7",
     "truffle": "^5.1.55"
   }
 }
